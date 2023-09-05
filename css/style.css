@@ -17,6 +17,12 @@ footer {
 
 }
 
+h1 {
+	font-size: 4rem;
+	font-display: ;
+	text-transform: uppercase;
+}
+
 .crabgrounds {
 	background-image: 
 	linear-gradient(rgba(115, 191, 255, 0.5), rgba(229, 172, 103, 1.0)),
@@ -24,6 +30,29 @@ footer {
   	url("../img/crab-background.png");
   	background-repeat: no-repeat;
 
+}
+
+.greens {
+/*	text-shadow: 5px 5px #558ABB;*/
+/*	background-color: goldenrod;*/
+background-color: rgba(218,165,32,0.5);
+}
+
+
+.example-font .blues2 p{
+	font-family: 'Crimson Pro', serif;
+	font-size: 1.5rem;
+/*	text-decoration: underline;*/
+text-decoration: underline overline 10px #FF3028;
+
+}
+
+.image-type-1 {
+	background-color: rebeccapurple;
+	padding: 4rem;
+	padding-left: 1rem;
+	margin: 1rem;
+	border: red 5px solid;
 }
 
 /*.blues {
@@ -39,3 +68,8 @@ footer {
 	rgba(134, 206, 170, 0.5) 86ceaa
 
 }*/
+
+
+@media >800px {
+
+}
